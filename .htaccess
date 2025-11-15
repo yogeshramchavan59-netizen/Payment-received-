@@ -1,0 +1,5 @@
+# .htaccess
+RewriteEngine On
+RewriteRule ^order$ order.php [L,QSA]
+RewriteRule ^verify$ verify.php [L,QSA]
+RewriteRule ^download$ download.php [L,QSA]
